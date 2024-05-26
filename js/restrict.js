@@ -54,7 +54,7 @@ function showSongLengthProgressBar() {
 showSongLengthProgressBar()
 
 let counter = 0,
-    Title = 'restrictt', // website title
+    Title = 'restrictt loloolo', // website title
     direction = true
 setInterval(function () {
     if (counter == Title.length) {
