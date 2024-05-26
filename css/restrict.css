@@ -3,6 +3,17 @@
     src: url("fonts/MC.otf");
 }
 
+@font-face {
+    font-family: "mc";
+    src: url("../fonts/regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "pr";
+    src: url("../fonts/pr.ttf");
+}
+
+
 * {
     margin: 0;
     padding: 0;
