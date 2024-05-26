@@ -54,7 +54,7 @@ function showSongLengthProgressBar() {
 showSongLengthProgressBar()
 
 let counter = 0,
-    Title = 'swatted.net >.<', // website title
+    Title = 'restrictt', // website title
     direction = true
 setInterval(function () {
     if (counter == Title.length) {
