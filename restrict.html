@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<!--
+made by restrict
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="🕷️" property="og:title">
+    <meta content="" property="og:description">
+    <meta content="https://cdn.discordapp.com/emojis/1225504682827579402.gif?size=96&quality=lossless"
+          property="og:image">
+    <meta content="#36393e" data-react-helmet="true" name="theme-color">
+    <meta content="restrict:3" name="description">
+    <title>restrict</title>
+    <link href="https://cdn.discordapp.com/emojis/1225504682827579402.gif?size=96&quality=lossless"
+          rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="css/restrict.css">
+</head>
+<body>
+<div id="clickToEnter" onclick="audio.play();video.play()">
+    [Click Anywhere]
+</div>
+<audio src="media/restrict1.mp3" loop id="audio" onplay="audio.volume = 0.1"
+></audio>
+<video src="media/restrict2.mp4" loop muted style="filter:  grayscale(100%) sepia(100%) hue-rotate(150deg);pointer-events: none; position:absolute;top: 0;left: 0;width: 100vw;height: 100vh;object-fit: cover" id="video"></video>
+<div id="snow" style="position:absolute;top: 0;left: 0;width: 100vw;height: 100vh;"></div>
+<div style="position:absolute;background:rgba(0,0,0,0.01);top: 0;left: 0;width: 100vw;height: 100vh"></div>
+<main>
+    <div class="content">
+        <img class="profile-picture" alt="ICON"
+             src="https://files.catbox.moe/qt31a2.jpg"
+             style="margin-bottom: 1em"/>
+        <h1 style="font-family: metro; font-size: 60px;margin-bottom: 0;padding-bottom: 0" class="glow">Restrict</h1>
+        <span id="typedOut" class="glow" style="height: 20px"></span>
+        <div style="height: 1ch" class="glow"></div>
+        <span class="glow">1 FLOW - NEMZZZ</span>
+        <span class="glow" id="song_len"></span>
+        <div class="socials">
+            <svg    onclick="location='discord.com/users/983355264021463120'"
+                    style="cursor: pointer"
+                    width="40px"
+                    height="40px"
+                    viewBox="0 0 48 48"
+                    version="1.1"
+                    id="svg1"
+                    xml:space="preserve"
+                    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+                    sodipodi:docname="Zeichnung.svg"
+                    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+                    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#fff"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.71357323"
+     inkscape:cx="668.46678"
+     inkscape:cy="390.2893"
+     inkscape:window-width="1894"
+     inkscape:window-height="1005"
+     inkscape:window-x="3852"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+                <defs
+                        id="defs1"/>
+                <g
+                        inkscape:label="Ebene 1"
+                        inkscape:groupmode="layer"
+                        id="layer1"><path
+       d="M 9.7128878,0.79909756 0.46384078,38.064006 36.263725,47.341476 45.761855,10.465691 Z M 20.570695,19.500043 l 7.22218,1.947539 -2.02877,7.609222 -7.390627,-2.180696 z"
+       style="fill:#ffffff;stroke-width:0.264583"
+       id="path4"
+       sodipodi:nodetypes="cccccccccc" /></g></svg>
+        </div>
+    </div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="js/restrict.js"></script>
+<script src="js/restrict1.js"></script>
+</body>
+</html>
