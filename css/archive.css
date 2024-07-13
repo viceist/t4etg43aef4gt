@@ -1,6 +1,6 @@
 body {
     background-color: #000;
-    font-family: "tp";
+    font-family: "pr";
     color: #fff;
 }
 
@@ -80,7 +80,7 @@ body {
 
         .top-wrap h1 {
             margin: 0;
-            font-family: tp;
+            font-family: pr;
             margin-top: .5em;
         }
 
@@ -156,7 +156,7 @@ body {
                         margin: 0 auto;
                         border-radius: 15px;
                         padding: 8px 10px;
-                        font-family: "tp";
+                        font-family: "pr";
                         -webkit-touch-callout: none;
                         -webkit-user-select: none;
                         -khtml-user-select: none;
@@ -188,7 +188,7 @@ body {
         color: rgb(255, 255, 255);
         position: fixed;
         font-size: 25px;
-        font-family: "tp";
+        font-family: "pr";
     }
 
     .proceed-button:hover {
