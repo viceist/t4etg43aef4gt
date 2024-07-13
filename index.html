@@ -49,101 +49,41 @@
       `*-*   `*-*  `*-*' 
 ⠀⠀⠀⠀⠀⠀⠀
         </pre>
-            
+                  <div class>
+            <div class="center">
+   <div class="overlay" id="overlay">
+        <div class="proceed-button" onclick="removeOverlay(); playMusic()"><p style="font-family: 'pr'; color: white; font-size: 25px;">Click</p></div>
+    </div>
+    <script>
+        function removeOverlay() {
+            var overlay = document.getElementById("overlay");
+            overlay.style.display = "none";
+        }
 
-      <!-- vice -->
-            <div class="item">
-                <div class="content">
-                    <div class="img-wrap">
-                        <a href="https://mural.lol" target="_blank">vice</a>
-                        <img src="images/vice.png">
-                        <a id="button">developer</a>
-                        <div class="socials">
-                            <a href="https://discord.com/users/1101636419409149953" target="_blank"><img src="images/dc.png"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-
-        <div class="row">
-            <!-- kira -->
-            <div class="item">
-                <div class="content">
-                    <div class="img-wrap">
-                        <a href="https://mural.lol" target="_blank">kira</a>
-                        <img src="images/kira.png">
-                        <a id="button">owner</a>
-                        <div class="socials">
-                            <a href="https://t.me/cutprints" target="_blank"><img src="images/tg.svg"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-
-        
+        function playMusic() {
+            var audio = new Audio("media/main.mp3");
+         audio.play();
+        }
+    </script>      
 
              <div class="row">
 
                             
-                        <!-- slit -->
+                        <!-- restrict -->
                         <div class="item">
                             <div class="content">
                                 <div class="img-wrap">
-                                    <a href="users.html" target="_blank">slit</a>
-                                    <img src="images/slit.png">
-                                    <a id="button">member</a>
-                                    <div class="socials">        
-                                        <a href="https://t.me/SigmaBoySlit" target="_blank"><img src="images/tg.svg"></a>                   
+                                    <a href="users.html" target="_blank">restrict</a>
+                                    <img src="images/revv.webp">
+                                    <a id="button">dev</a>        
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-
-            <!-- revv -->
-            <div class="item">
-                <div class="content">
-                    <div class="img-wrap">
-                        <a href="users.html" target="_blank">revv</a>
-                        <img src="images/revv.png">
-                        <a id="button">member</a>
-                        <div class="socials">       
-                            <a href="https://t.me/revvs" target="_blank"><img src="images/tg.svg"></a>                    
-                        </div>
-                    </div>
                 </div>
-            </div>
-
-                    
-            <!-- con -->
-            <div class="item">
-                <div class="content">
-                    <div class="img-wrap">
-                        <a href="users.html" target="_blank">con</a>
-                        <img src="images/con1.jpg">
-                        <a id="button">member</a>
-                        <div class="socials">
-                            <a href="https://discord.com/users/1188454255011573781" target="_blank"><img src="images/dc.png"></a>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            
-            
-
-
-             </div>
-
-             <div class="row">
-            
-    </div>
         
-    <audio id="audio">
-      <source src="media/music.mp3" type="audio/mpeg">
-    </audio>
+
 
     <script src="js/script.js"></script>
     <script data-cfasync="false" src="https://mural.lol/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
