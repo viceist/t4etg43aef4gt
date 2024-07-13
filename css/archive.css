@@ -1,12 +1,17 @@
 body {
     background-color: #000;
-    font-family: "pr";
+    font-family: "tp";
     color: #fff;
 }
 
 @font-face {
     font-family: "mc";
     src: url("../fonts/regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "tp";
+    src: url("../fonts/TopazPlus.ttf") format("opentype");
 }
 
 @font-face {
@@ -75,7 +80,7 @@ body {
 
         .top-wrap h1 {
             margin: 0;
-            font-family: mc;
+            font-family: tp;
             margin-top: .5em;
         }
 
@@ -151,7 +156,7 @@ body {
                         margin: 0 auto;
                         border-radius: 15px;
                         padding: 8px 10px;
-                        font-family: "pr";
+                        font-family: "tp";
                         -webkit-touch-callout: none;
                         -webkit-user-select: none;
                         -khtml-user-select: none;
@@ -183,7 +188,7 @@ body {
         color: rgb(255, 255, 255);
         position: fixed;
         font-size: 25px;
-        font-family: "pr";
+        font-family: "tp";
     }
 
     .proceed-button:hover {
