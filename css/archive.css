@@ -11,7 +11,7 @@ body {
 
 @font-face {
     font-family: "tp";
-    src: url("../fonts/TopazPlus.ttf") format("opentype");
+    src: url("../fonts/TopazPlus.ttf") 
 }
 
 @font-face {
